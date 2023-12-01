@@ -70,5 +70,6 @@ export default App;
  * <RouterProvider router={router}/>
  * createBrowserRouter([])
  * useRouteError()
+ * useNavigation() [.state === 'submitting | loading']
  * Link
  */
