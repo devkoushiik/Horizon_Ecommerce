@@ -65,3 +65,10 @@ const App = () => {
   return <RouterProvider router={router} />;
 };
 export default App;
+
+/**
+ * <RouterProvider router={router}/>
+ * createBrowserRouter([])
+ * useRouteError()
+ * Link
+ */
