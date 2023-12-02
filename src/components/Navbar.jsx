@@ -1,6 +1,7 @@
 import { BsCart3, BsMoonFill, BsSunFill } from "react-icons/bs";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
+import Navlinks from "./Navlinks";
 const Navbar = () => {
   return (
     <nav className="bg-base-200">
@@ -11,7 +12,7 @@ const Navbar = () => {
             to={"/"}
             className={"hidden lg:flex btn btn-primary text-3xl items-center"}
           >
-            H
+            K
           </NavLink>
           {/* dropdown */}
           <div className="dropdown">
@@ -20,13 +21,17 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-200"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-200 rounded-box w-52"
             >
-              nav links
+              <Navlinks />
             </ul>
           </div>
         </div>
-        <div className="navbar-center hidden lg:flex">navlinks</div>
+        <div className="navbar-center hidden lg:flex">
+          <ul className="menu menu-horizontal">
+            <Navlinks />
+          </ul>
+        </div>
         <div className="navbar-end">
           {/* theme setup  */}
           {/* cart link */}
