@@ -20,7 +20,6 @@ const SingleProduct = () => {
     setAmount(parseInt(e.target.value));
   };
 
-  console.log(product);
   return (
     <section>
       <div className="text-md breadcrumbs">
