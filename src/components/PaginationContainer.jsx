@@ -10,11 +10,13 @@ const PaginationContainer = () => {
   });
 
   const { search, pathname } = useLocation();
+
   const navigate = useNavigate();
 
   const handlePageChange = (pageNumber) => {
     const searchParams = new URLSearchParams(search);
     searchParams.set("page", pageNumber);
+
     navigate(`${pathname}?${searchParams.toString()}`);
   };
 
