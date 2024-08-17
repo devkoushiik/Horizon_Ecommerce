@@ -1,4 +1,4 @@
 # Visit my portfolio
-https://devkoushiik.netlify.app
+https://devkoush.netlify.app
 # Visit this site
 https://horizonxkoushik.netlify.app/
