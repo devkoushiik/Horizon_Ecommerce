@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { toast } from "react-toastify";
 
+// default state
 const defaultState = {
   cartItems: [], // this will come from async thunk
   numItemsInCart: 0,
