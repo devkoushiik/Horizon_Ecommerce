@@ -11,16 +11,14 @@ const About = () => {
           </div>
         </div>
       </div>{" "}
-      <p className="mt-6 text-lg leading-8 max-w-2xl mx-auto text-justify">
-        <p className="">
-          Welcome to Horizon Online Shop, where the possibilities are endless
-          and the shopping experience is unparalleled. At Horizon, we redefine
-          online shopping by offering a curated selection of high-quality
-          products that cater to your diverse needs and desires. Our virtual
-          shelves are stocked with a wide array of goods, from trendy fashion
-          and cutting-edge electronics to home essentials and beyond.
-        </p>
-        <br />{" "}
+      <div className="mt-6 text-lg leading-8 max-w-2xl mx-auto text-justify">
+        Welcome to Horizon Online Shop, where the possibilities are endless and
+        the shopping experience is unparalleled. At Horizon, we redefine online
+        shopping by offering a curated selection of high-quality products that
+        cater to your diverse needs and desires. Our virtual shelves are stocked
+        with a wide array of goods, from trendy fashion and cutting-edge
+        electronics to home essentials and beyond.
+        <br />
         <p>
           What sets Horizon apart is not just our product range, but the
           seamless and user-friendly shopping journey we provide. Navigating
@@ -29,15 +27,15 @@ const About = () => {
           the latest fashion trends, innovative gadgets, and must-have items for
           your home.
         </p>
-        <br />{" "}
+        <br />
         <p>
           We pride ourselves on delivering not just products but an experience.
           With secure and convenient payment options, swift shipping, and a
           responsive customer support team, we prioritize your satisfaction
           every step of the way. Horizon is not just an online shop; it's a
           destination where your shopping aspirations meet reality.
-        </p>{" "}
-        <br />{" "}
+        </p>
+        <br />
         <p>
           Whether you're an avid fashionista, tech enthusiast, or someone
           seeking stylish home decor, Horizon Online Shop has something for
@@ -45,7 +43,7 @@ const About = () => {
           destination for all things stylish, functional, and on-trend. Your
           shopping adventure begins here!"
         </p>
-      </p>
+      </div>
     </div>
   );
 };
